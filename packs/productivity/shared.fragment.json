@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "categories": [],
+  "sharedBookmarks": [],
+  "sharedUrlBookmarks": [],
+  "sharedCommandBookmarks": [
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000040",
+      "kind": "ai",
+      "label": "Roadmap: status symbols",
+      "comment": "pack: productivity",
+      "order": 0,
+      "memoryProjection": { "workspace": true },
+      "text": "In roadmap, todo, and concept files always use:\n\n✅ implemented\n⏳ planned / open\n~ evolved beyond original plan\n❌ dropped / not relevant\n\nDo not mix other markers — keeps docs readable for humans and AI."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000041",
+      "kind": "ai",
+      "label": "Todos: ✅ ❌ + timestamp",
+      "comment": "pack: productivity",
+      "order": 1,
+      "memoryProjection": { "workspace": true },
+      "text": "In todo.md and agent replies for this project:\n\n- Open: ⏳ Short description\n- Done: ✅ Short description — YYYY-MM-DD HH:mm\n- Blocked/dropped: ❌ Short description — reason\n\nDo not delete completed items — add a timestamp.\nPrefix new tasks with ⏳."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000042",
+      "kind": "ai",
+      "label": "Agent todos: ✅ ❌ in session",
+      "comment": "pack: productivity",
+      "order": 2,
+      "memoryProjection": { "workspace": true },
+      "text": "When updating todo lists in this agent session:\n\n- Open tasks: ⏳ description\n- Completed: ✅ description — YYYY-MM-DD HH:mm\n- Cancelled/blocked: ❌ description — reason\n\nMark done as soon as a task finishes.\nDo not delete completed items — keep ✅ rows with timestamps.\nDo not mix other status markers."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000043",
+      "kind": "ai",
+      "label": "New feature: write concept first",
+      "comment": "pack: productivity",
+      "order": 3,
+      "text": "Plan before implementation:\n\n1) Create concept.<feature>.en.md (problem, goals, non-goals, data model, UX)\n2) Add roadmap entry with status ⏳\n3) Add concrete tasks to todo.md\n4) Implement only after review\n\nStatus symbols: ✅ done · ⏳ open · ~ evolved · ❌ dropped"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000044",
+      "kind": "ai",
+      "label": "Concept → todo.md",
+      "comment": "pack: productivity",
+      "order": 4,
+      "text": "After a concept is approved:\n\n1) Extract concrete tasks into todo.md with ⏳ prefix\n2) Link each task to the concept section it implements\n3) Do not start coding until tasks exist and are reviewed\n4) Mark concept roadmap entry ⏳ until all tasks are ✅ or ❌"
+    }
+  ]
+}

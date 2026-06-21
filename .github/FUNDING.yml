@@ -1,3 +1,4 @@
+# GitHub sponsorship button — see https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/displaying-a-sponsor-button-in-your-repository
 custom:
-  - "https://www.paypal.com/donate/?hosted_button_id=7DWD8PNWWGABS"
-  - "https://www.ready-4-it.com/en/produktoverview/codespots"
+  - https://www.paypal.com/donate/?hosted_button_id=7DWD8PNWWGABS
+  - https://www.ready-4-it.com/en/produktoverview/codespots

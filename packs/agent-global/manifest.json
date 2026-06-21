@@ -1,0 +1,7 @@
+{
+  "name": "agent-global",
+  "title": "Everywhere agent habits",
+  "description": "Commit when asked, minimal diff, safe release guardrails. Import into global personal storage in Code Spots (not shared.json).",
+  "scopeHint": "global",
+  "locale": "en"
+}

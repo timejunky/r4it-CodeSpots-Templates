@@ -1,0 +1,3 @@
+# Personal Code Spots data — never commit to this public repo
+.csvs/personal.json
+.csvs/personal.*.enc.json

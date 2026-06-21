@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-000000000001",
+      "label": "Code Spots",
+      "order": 0,
+      "comment": "Product, marketplace, guides"
+    }
+  ],
+  "sharedBookmarks": [],
+  "sharedUrlBookmarks": [
+    {
+      "id": "c1b2c3d4-e5f6-7890-abcd-000000000023",
+      "categoryId": "a1b2c3d4-e5f6-7890-abcd-000000000001",
+      "url": "https://marketplace.visualstudio.com/items?itemName=ready-4-it.code-spots",
+      "label": "VS Code Marketplace",
+      "order": 0
+    },
+    {
+      "id": "c1b2c3d4-e5f6-7890-abcd-000000000020",
+      "categoryId": "a1b2c3d4-e5f6-7890-abcd-000000000001",
+      "url": "https://www.ready-4-it.com/en/produktoverview/codespots",
+      "label": "Code Spots product page",
+      "order": 1
+    },
+    {
+      "id": "c1b2c3d4-e5f6-7890-abcd-000000000021",
+      "categoryId": "a1b2c3d4-e5f6-7890-abcd-000000000001",
+      "url": "https://www.ready-4-it.com/en/produktoverview/codespots/guides",
+      "label": "Guides & FAQ",
+      "comment": "Language switcher on the site",
+      "order": 2
+    }
+  ],
+  "sharedCommandBookmarks": [
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000030",
+      "kind": "ai",
+      "label": "AI rules: clip vs memory vs settings",
+      "comment": "Shared #15 — onboarding",
+      "order": 0,
+      "text": "Three ways to influence AI behavior — not interchangeable:\n\n1) AI Clip (Code Spots Commands): copy on click — you decide when the AI sees it.\n2) Memory projection (Pro+): selected clips mirrored into AI workspace/repository memory while enabled.\n3) Cursor / Copilot user rules: global editor settings — not managed by Code Spots.\n\nCopy-on-click is not automatic enforcement unless memory projection is on for that clip."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000032",
+      "kind": "ai",
+      "label": "Onboarding: start here",
+      "comment": "Shared #20",
+      "order": 1,
+      "text": "Welcome — read in this order:\n\n1) README / quickstart\n2) Code Spots categories: Entry Points, Core Logic, Configuration\n3) concept.* and roadmap for active work\n4) Run setup script / install deps before first commit\n\nAsk in team chat if a bookmark is missing — add it to shared.json for the next person."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000040",
+      "kind": "ai",
+      "label": "Roadmap: status symbols",
+      "comment": "Shared #8 — docs root; adopt via wizard if desired",
+      "order": 2,
+      "text": "In roadmap, todo, and concept files always use:\n\n✅ implemented\n⏳ planned / open\n~ evolved beyond original plan\n❌ dropped / not relevant\n\nDo not mix other markers — keeps docs readable for humans and AI."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000041",
+      "kind": "ai",
+      "label": "Todos: ✅ ❌ + timestamp",
+      "comment": "Shared #9 — docs root; adopt via wizard if desired",
+      "order": 3,
+      "text": "In todo.md and agent replies for this project:\n\n- Open: ⏳ Short description\n- Done: ✅ Short description — YYYY-MM-DD HH:mm\n- Blocked/dropped: ❌ Short description — reason\n\nDo not delete completed items — add a timestamp.\nPrefix new tasks with ⏳."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000042",
+      "kind": "ai",
+      "label": "Agent todos: ✅ ❌ in session",
+      "comment": "Shared — agent todo lists; adopt via wizard if desired",
+      "order": 4,
+      "text": "When updating todo lists in this agent session:\n\n- Open tasks: ⏳ description\n- Completed: ✅ description — YYYY-MM-DD HH:mm\n- Cancelled/blocked: ❌ description — reason\n\nMark done as soon as a task finishes.\nDo not delete completed items — keep ✅ rows with timestamps.\nDo not mix other status markers."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000043",
+      "kind": "ai",
+      "label": "New feature: write concept first",
+      "comment": "Shared #6 — docs / planning root",
+      "order": 5,
+      "text": "Plan before implementation:\n\n1) Create concept.<feature>.en.md (problem, goals, non-goals, data model, UX)\n2) Add roadmap entry with status ⏳\n3) Add concrete tasks to todo.md\n4) Implement only after review\n\nStatus symbols: ✅ done · ⏳ open · ~ evolved · ❌ dropped"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000044",
+      "kind": "ai",
+      "label": "Concept → todo.md",
+      "comment": "Shared #7 — docs root",
+      "order": 6,
+      "text": "After a concept is approved:\n\n1) Extract concrete tasks into todo.md with ⏳ prefix\n2) Link each task to the concept section it implements\n3) Do not start coding until tasks exist and are reviewed\n4) Mark concept roadmap entry ⏳ until all tasks are ✅ or ❌"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000045",
+      "kind": "ai",
+      "label": "Git: commit when asked",
+      "comment": "Global personal #10 — copy to global storage",
+      "order": 7,
+      "text": "Create git commits only when explicitly requested.\n\nBefore committing: git status, diff, recent log — then a concise message focused on why.\nNever push unless asked."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000046",
+      "kind": "ai",
+      "label": "Code: minimal focused diff",
+      "comment": "Global personal #16 — copy to global storage",
+      "order": 8,
+      "text": "When changing code:\n\n- Smallest correct fix only\n- Match existing style and conventions\n- No drive-by refactors or unrelated edits\n- Reuse existing helpers instead of duplicating logic"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000047",
+      "kind": "ai",
+      "label": "Git: never delete untracked",
+      "comment": "Shared or global #3",
+      "order": 9,
+      "text": "Never delete untracked files without explicit approval.\n\nOther workspace roots or teammates may rely on the same checkout.\nAsk before running cleanup on unknown files."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000048",
+      "kind": "ai",
+      "label": "Before commit: run tests",
+      "comment": "Shared #17 — code repo",
+      "order": 10,
+      "text": "Before committing or opening a PR:\n\n1) Run the project test command\n2) Fix failures in scope of your change\n3) Mention what you ran in the PR test plan"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000031",
+      "kind": "ai",
+      "label": "PR description template",
+      "comment": "Shared #18",
+      "order": 11,
+      "text": "## Summary\n- What changed and why (1–3 bullets)\n\n## Test plan\n- [ ] …\n\n## Notes\n- Breaking changes / migration / screenshots if UI"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000033",
+      "kind": "ai",
+      "label": "Shared: no secrets",
+      "comment": "Shared #11",
+      "order": 12,
+      "text": "Never store credentials, tokens, or internal URLs with passwords in shared.json or shared AI clips.\n\nUse personal.json, encrypted personal storage, or the Secrets vault instead.\nShared bookmarks may be committed to Git."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000034",
+      "kind": "ai",
+      "label": "Bug report prompt",
+      "comment": "Global or shared #19",
+      "order": 13,
+      "text": "Summarize the bug before proposing a fix:\n\n- Symptom and steps to reproduce\n- Expected vs actual behavior\n- Relevant files / logs / error messages\n- Smallest fix that solves it — ask before changing unrelated code"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000050",
+      "kind": "ai",
+      "label": "Release policy (team)",
+      "comment": "Shared #1 — primary code repo",
+      "order": 14,
+      "text": "Affected repos: every repo in scope that shows changes in git status.\n\nOrder:\n1) Submodules first — commit, bump version, tag x.y.z\n2) Superproject — update submodule pointers + own changes, same steps\n3) Companion repos (e.g. *_info) — same steps\n\nRules:\n- One tag x.y.z per repo\n- Bump version only when there are real changes\n- No empty release commits"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000051",
+      "kind": "ai",
+      "label": "Agent: safe release run",
+      "comment": "Personal or global #2",
+      "order": 15,
+      "text": "When executing a release for this workspace:\n\n- Never delete untracked files without asking (other workspaces may use the same repos)\n- Include untracked files in commits except obvious junk (.tmp, build artifacts)\n- Push only when explicitly requested\n- If a repo has no real changes, skip version bump and tag for that repo"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000052",
+      "kind": "ai",
+      "label": "Release: version if changed",
+      "comment": "Shared #4",
+      "order": 16,
+      "text": "Bump package/version fields only when there are real changes to ship.\n\nSkip version bump and tag when the release would be empty or noise-only."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000053",
+      "kind": "ai",
+      "label": "Tags: semver per repo",
+      "comment": "Shared #5",
+      "order": 17,
+      "text": "Use one semver tag format per repository: x.y.z (no mixed v-prefix unless the whole team agreed once).\n\nTag only after version bump and tests pass."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000054",
+      "kind": "ai",
+      "label": "Pre-release checklist",
+      "comment": "Shared #13 — shipped code repo",
+      "order": 18,
+      "text": "Before tagging a release:\n\n- Unit tests green\n- Extension compiles / bundles\n- CHANGELOG.md and package.json version aligned\n- No internal-only paths in shipped files\n- .vscodeignore / package contents reviewed"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000055",
+      "kind": "ai",
+      "label": "Marketplace release prep",
+      "comment": "Shared #14 — VS Code extensions",
+      "order": 19,
+      "text": "Before marketplace publish:\n\n- CHANGELOG entry for this version\n- package.json version matches tag\n- README / screenshots current\n- .vscodeignore excludes dev-only paths\n- Run extension tests and smoke-install VSIX if applicable"
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000056",
+      "kind": "ai",
+      "label": "i18n: update all locales",
+      "comment": "Shared #21 — multi-locale repos",
+      "order": 20,
+      "text": "When changing user-visible strings, update every shipped locale (e.g. en, de, fr, lb).\n\nDo not leave English-only keys in i18n JSON files.\nMatch existing key naming and tone per locale file."
+    },
+    {
+      "id": "d1b2c3d4-e5f6-7890-abcd-000000000057",
+      "kind": "ai",
+      "label": "Fix shared.json conflict",
+      "comment": "Shared #22",
+      "order": 21,
+      "text": "When .csvs/shared.json has Git conflict markers:\n\n1) Resolve conflict markers in the file first (do not edit bookmarks in Code Spots on a conflicted file)\n2) Run Code Spots: Repair Bookmarks if needed\n3) Re-open sidebar and verify categories and clips\n4) Commit the resolved JSON"
+    }
+  ]
+}
