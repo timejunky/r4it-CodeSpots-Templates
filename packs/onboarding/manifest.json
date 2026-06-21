@@ -3,5 +3,9 @@
   "title": "Onboarding clips",
   "description": "Start-here and meta-clip for new team members. Import into your code or docs workspace root.",
   "scopeHint": "shared",
-  "locale": "en"
+  "locale": "en",
+  "catalogHint": {
+    "suggestedRole": "catalog",
+    "packId": "onboarding"
+  }
 }

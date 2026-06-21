@@ -8,7 +8,7 @@ Companion workspace for [Code Spots](https://www.ready-4-it.com/en/produktovervi
 2. Clone this repo (or fork it for your team variant).
 3. **File → Add Folder to Workspace…** and add this folder next to your code repos.
 4. In Code Spots, assign this root role **Catalog** (Assignment Panel — team decides; not enforced by this repo).
-5. Browse clips under this root (copy-on-click) or run **Adopt rules from catalog…** (planned wizard) to copy selected clips into your **Primary** team repo.
+5. Browse clips under this root (copy-on-click) or run **Code Spots → Settings (⚙️) → Adopt rules from catalog…** (or **Assign Files (🎯) → Adopt rules from catalog…**) to copy selected clips into your **Primary** team repo.
 
 Clips here are **reference examples** — they do not automatically become team policy for your code repos. See [catalog adoption concept](https://github.com/timejunky/r4it_code_spot_vs/blob/dev/r4it_code_spot_vs_info/concept.catalog-adoption.en.md) (in the main extension info repo).
 
@@ -27,9 +27,9 @@ Clips here are **reference examples** — they do not automatically become team 
 
 ## Import a pack (optional)
 
-Code Spots **Export/Import** merges bookmark JSON into the active workspace root. See `packs/README.md` for pack layout and merge-by-id behavior.
+Use the **Adoption wizard** in Code Spots (Settings ⚙️ or command palette: *Adopt rules from catalog…*) to pick a pack fragment (`onboarding`, `productivity`, `agent-global`) or the full `shared.json`.
 
-Until the adoption wizard ships, use Import to copy pack fragments into your Primary repo manually.
+Classic **Export/Import** (`Ctrl+Alt+I`) still merges bookmark JSON into the active workspace root. See `packs/README.md` for pack layout and merge-by-id behavior.
 
 ## Contribute
 
