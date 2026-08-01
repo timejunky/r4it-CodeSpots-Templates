@@ -21,8 +21,9 @@ packs/
 1. Add this repo to your workspace and set its root role to **Catalog** (Assignment panel 🎯).
 2. Set your team repo as **Primary**.
 3. Open **Code Spots → Settings (⚙️) → Adopt rules from catalog…** (or command palette).
-4. Choose **Clip source**: full catalog or a pack (`Pack: onboarding`, etc.).
-5. Select clips and target scope (shared / personal / global).
+4. Choose **Clip source**: prefer a pack (`Pack: onboarding`, etc.) over full catalog / Select all.
+5. Read **Purpose / When / Adapt** per row; pick target scope (shared / personal / global).
+6. Adopt selected → adapt placeholders on Primary → commit Shared via PR.
 
 ## Classic import
 

@@ -8,34 +8,31 @@
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000040",
       "kind": "ai",
       "label": "Roadmap: status symbols",
-      "comment": "pack: productivity",
+      "comment": "Shared #8 — Purpose: One ✅ ⏳ ~ ❌ set so humans and AI parse status the same way. When: docs / planning root. Adapt: use as-is unless the team already agreed different markers.",
       "order": 0,
-      "memoryProjection": { "workspace": true },
       "text": "In roadmap, todo, and concept files always use:\n\n✅ implemented\n⏳ planned / open\n~ evolved beyond original plan\n❌ dropped / not relevant\n\nDo not mix other markers — keeps docs readable for humans and AI."
     },
     {
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000041",
       "kind": "ai",
       "label": "Todos: ✅ ❌ + timestamp",
-      "comment": "pack: productivity",
+      "comment": "Shared #9 — Purpose: Open/done/dropped todos stay unambiguous with timestamps. When: docs root / shared progress tracking. Adapt: keep format; change nothing unless your todo file uses another convention.",
       "order": 1,
-      "memoryProjection": { "workspace": true },
       "text": "In todo.md and agent replies for this project:\n\n- Open: ⏳ Short description\n- Done: ✅ Short description — YYYY-MM-DD HH:mm\n- Blocked/dropped: ❌ Short description — reason\n\nDo not delete completed items — add a timestamp.\nPrefix new tasks with ⏳."
     },
     {
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000042",
       "kind": "ai",
       "label": "Agent todos: ✅ ❌ in session",
-      "comment": "pack: productivity",
+      "comment": "Shared — Purpose: Same ✅ ❌ ⏳ rules inside agent session todo lists. When: teams that run long agent sessions. Adapt: use as-is; drop if you do not use session todos.",
       "order": 2,
-      "memoryProjection": { "workspace": true },
       "text": "When updating todo lists in this agent session:\n\n- Open tasks: ⏳ description\n- Completed: ✅ description — YYYY-MM-DD HH:mm\n- Cancelled/blocked: ❌ description — reason\n\nMark done as soon as a task finishes.\nDo not delete completed items — keep ✅ rows with timestamps.\nDo not mix other status markers."
     },
     {
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000043",
       "kind": "ai",
       "label": "New feature: write concept first",
-      "comment": "pack: productivity",
+      "comment": "Shared #6 — Purpose: Force concept → roadmap → todo before coding. When: docs / planning root for concept-driven teams. Adapt: rename concept/roadmap/todo paths if yours differ.",
       "order": 3,
       "text": "Plan before implementation:\n\n1) Create concept.<feature>.en.md (problem, goals, non-goals, data model, UX)\n2) Add roadmap entry with status ⏳\n3) Add concrete tasks to todo.md\n4) Implement only after review\n\nStatus symbols: ✅ done · ⏳ open · ~ evolved · ❌ dropped"
     },
@@ -43,7 +40,7 @@
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000044",
       "kind": "ai",
       "label": "Concept → todo.md",
-      "comment": "pack: productivity",
+      "comment": "Shared #7 — Purpose: Turn approved concepts into trackable tasks. When: docs root / PM–dev handoff. Adapt: link style to your todo file; keep the review gate.",
       "order": 4,
       "text": "After a concept is approved:\n\n1) Extract concrete tasks into todo.md with ⏳ prefix\n2) Link each task to the concept section it implements\n3) Do not start coding until tasks exist and are reviewed\n4) Mark concept roadmap entry ⏳ until all tasks are ✅ or ❌"
     }

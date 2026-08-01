@@ -8,7 +8,7 @@
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000032",
       "kind": "ai",
       "label": "Onboarding: start here",
-      "comment": "Shared — pack: onboarding",
+      "comment": "Shared #20 — Purpose: Day-one reading order so navigation is shared, not tribal knowledge. When: code or docs Primary root for new teammates. Adapt: replace category names, setup script, and doc paths with yours.",
       "order": 0,
       "text": "Welcome — read in this order:\n\n1) README / quickstart\n2) Code Spots categories: Entry Points, Core Logic, Configuration\n3) concept.* and roadmap for active work\n4) Run setup script / install deps before first commit\n\nAsk in team chat if a bookmark is missing — add it to shared.json for the next person."
     },
@@ -16,7 +16,7 @@
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000030",
       "kind": "ai",
       "label": "AI rules: clip vs memory vs settings",
-      "comment": "Shared — pack: onboarding",
+      "comment": "Shared #15 — Purpose: Meta-clip so the team shares the same mental model of Clip vs Memory vs editor rules. When: onboarding / AI newcomers; keep copy-on-click. Adapt: leave as-is; optional Pro W/R only if you want it always present.",
       "order": 1,
       "text": "Three ways to influence AI behavior — not interchangeable:\n\n1) AI Clip (Code Spots Commands): copy on click — you decide when the AI sees it.\n2) Memory projection (Pro+): selected clips mirrored into AI workspace memory while enabled.\n3) Cursor / Copilot user rules: global editor settings — not managed by Code Spots.\n\nCopy-on-click is not automatic enforcement unless memory projection is on for that clip."
     }

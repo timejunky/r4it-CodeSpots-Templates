@@ -8,7 +8,7 @@
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000045",
       "kind": "ai",
       "label": "Git: commit when asked",
-      "comment": "pack: agent-global — store in global personal",
+      "comment": "Global personal #10 — Purpose: Stop agents from surprise commits. When: every workspace; target Global. Adapt: use as-is; Personal only if you want it on one root.",
       "order": 0,
       "text": "Create git commits only when explicitly requested.\n\nBefore committing: git status, diff, recent log — then a concise message focused on why.\nNever push unless asked."
     },
@@ -16,7 +16,7 @@
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000046",
       "kind": "ai",
       "label": "Code: minimal focused diff",
-      "comment": "pack: agent-global — store in global personal",
+      "comment": "Global personal #16 — Purpose: Keep agent diffs small and reviewable. When: AI-assisted coding everywhere; target Global. Adapt: use as-is.",
       "order": 1,
       "text": "When changing code:\n\n- Smallest correct fix only\n- Match existing style and conventions\n- No drive-by refactors or unrelated edits\n- Reuse existing helpers instead of duplicating logic"
     },
@@ -24,7 +24,7 @@
       "id": "d1b2c3d4-e5f6-7890-abcd-000000000051",
       "kind": "ai",
       "label": "Agent: safe release run",
-      "comment": "pack: agent-global — store in global or personal",
+      "comment": "Personal #2 — Purpose: How *your* AI must behave during a release (complements team release policy). When: primary code root; Personal or Global. Adapt: align with team release policy; keep ask-before-push/delete.",
       "order": 2,
       "text": "When executing a release for this workspace:\n\n- Never delete untracked files without asking (other workspaces may use the same repos)\n- Include untracked files in commits except obvious junk (.tmp, build artifacts)\n- Push only when explicitly requested\n- If a repo has no real changes, skip version bump and tag for that repo"
     }
