@@ -14,10 +14,11 @@ Add this repo as a **second workspace root** next to your code. Assign role **Ca
 
 1. Prefer a **pack** (`onboarding`, `productivity`, `agent-global`) or cherry-pick a few clips — not Select all.
 2. Read each row’s **Purpose / When / Adapt** in the wizard Explanation column.
-3. Choose **Target**: Shared (team Git) · Personal (you on this root) · Global (you everywhere, Pro).
-4. After adopt: replace placeholders (paths, test commands, repo names), commit Shared via PR.
-5. Optional Pro: enable memory projection (W/R) on Primary per clip — never copied by the wizard.
-6. **Cleanup:** delete unused clips on Primary (+ Git). No special un-adopt API.
+3. Choose **destination root**: Primary (code) or Companion (docs packs default to `*_info` when present).
+4. Choose **Target**: Shared (team Git) · Personal (you on this root) · Global (you everywhere, Pro).
+5. After adopt: replace placeholders — or keep localized text if the same bookmark `id` already exists (merge skips).
+6. Optional Pro: enable memory projection (W/R) on the destination — never copied by the wizard.
+7. **Cleanup:** delete unused clips (+ Git). No special un-adopt API.
 
 ## Scope scale
 

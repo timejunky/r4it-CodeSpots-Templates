@@ -12,7 +12,7 @@ Companion workspace for [Code Spots](https://www.ready-4-it.com/en/produktovervi
 
 Clips here are **reference examples** — they do not automatically become team policy for your code repos. See [catalog adoption concept](https://github.com/timejunky/r4it_code_spot_vs/blob/dev/r4it_code_spot_vs_info/concept.catalog-adoption.en.md) (in the main extension info repo).
 
-**After adopt:** Prefer a pack or a few clips (not Select all). Read **Purpose / When / Adapt** in the wizard. Replace placeholders for your repos, commit Shared via PR, delete unused clips anytime (cleanup = delete + Git). Memory projection is never copied — enable W/R on Primary separately if needed (Pro). Details: [`docs/recommended-rules.en.md`](docs/recommended-rules.en.md).
+**After adopt:** Prefer a pack or a few clips (not Select all). Read **Purpose / When / Adapt** in the wizard. Choose destination: **Primary** (code rules) or a **Companion** (docs packs like `productivity` / `onboarding` often go to `*_info`). Same bookmark `id` = merge skips (keeps your localized text). Commit Shared via PR; cleanup = delete + Git. Memory projection is never copied. Details: [`docs/recommended-rules.en.md`](docs/recommended-rules.en.md).
 
 **File bookmarks:** This repo ships URL + AI clips only (portable in Git). File bookmarks need absolute `file://` URIs from your machine — add them locally via Code Spots (right-click a file → Add to Category) if you want one-click links to `README.md`, `CONTRIBUTING.md`, etc.
 
