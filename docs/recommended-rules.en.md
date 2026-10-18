@@ -1,6 +1,6 @@
 # Recommended rules & AI clips
 
-Curated templates for Code Spots **Commands** (✍️). Clips already in this repo live in [`.csvs/shared.json`](../.csvs/shared.json).
+Curated templates for Code Spots **Commands** (✍️). **SSOT** for clip bodies and packs is this repo — [`.csvs/shared.json`](../.csvs/shared.json) and `packs/`. Code Spots project info (Ray) describes adoption; it is not a second CSVS catalog.
 
 **Public catalog:** [github.com/timejunky/r4it-CodeSpots-Templates](https://github.com/timejunky/r4it-CodeSpots-Templates)
 
@@ -14,7 +14,7 @@ Add this repo as a **second workspace root** next to your code. Assign role **Ca
 
 1. Prefer a **pack** (`onboarding`, `productivity`, `agent-global`) or cherry-pick a few clips — not Select all.
 2. Read each row’s **Purpose / When / Adapt** in the wizard Explanation column.
-3. Choose **destination root**: Primary (code) or Companion (docs packs default to `*_info` when present).
+3. Choose **destination root**: Primary (default) or Companion (optional). Catalog is never a destination.
 4. Choose **Target**: Shared (team Git) · Personal (you on this root) · Global (you everywhere, Pro).
 5. After adopt: replace placeholders — or keep localized text if the same bookmark `id` already exists (merge skips).
 6. Optional Pro: enable memory projection (W/R) on the destination — never copied by the wizard.

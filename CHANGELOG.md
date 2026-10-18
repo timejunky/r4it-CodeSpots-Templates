@@ -6,8 +6,9 @@ This file is the catalog **release note**. Git tags for this repo are optional m
 
 ## Unreleased
 
+- Docs: CSVS clip SSOT is this repo; Code Spots Ray describes the wizard, not a second clip catalog.
 - Docs: catalog-adoption link goes to Code Spots Help / product guides (the old GitHub `_info` concept URL is gone).
-- Flow B Phase 4: `Purpose` / `When` / `Adapt` comments on clips and pack fragments; destination `*_info` for docs packs.
+- Flow B Phase 4: `Purpose` / `When` / `Adapt` comments on clips and pack fragments. Adopt destination defaults to Primary; Companion is optional.
 
 ## Notes
 
