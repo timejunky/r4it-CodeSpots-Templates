@@ -10,7 +10,7 @@ Companion workspace for [Code Spots](https://www.ready-4-it.com/en/produktovervi
 4. In Code Spots, assign this root role **Catalog** (Assignment Panel — team decides; not enforced by this repo).
 5. Browse clips under this root (copy-on-click) or run **Code Spots → Settings (⚙️) → Adopt rules from catalog…** (or **Assign Files (🎯) → Adopt rules from catalog…**) to copy selected clips into your **Primary** team repo.
 
-Clips here are **reference examples** — they do not automatically become team policy for your code repos. See [catalog adoption concept](https://github.com/timejunky/r4it_code_spot_vs/blob/dev/r4it_code_spot_vs_info/concept.catalog-adoption.en.md) (in the main extension info repo).
+Clips here are **reference examples** — they do not automatically become team policy for your code repos. In Code Spots, open **Help → Catalog adoption** (How to adopt), or see the [product guides](https://www.ready-4-it.com/en/produktoverview/codespots/guides).
 
 **After adopt:** Prefer a pack or a few clips (not Select all). Read **Purpose / When / Adapt** in the wizard. Choose destination: **Primary** (code rules) or a **Companion** (docs packs like `productivity` / `onboarding` often go to `*_info`). Same bookmark `id` = merge skips (keeps your localized text). Commit Shared via PR; cleanup = delete + Git. Memory projection is never copied. Details: [`docs/recommended-rules.en.md`](docs/recommended-rules.en.md).
 
